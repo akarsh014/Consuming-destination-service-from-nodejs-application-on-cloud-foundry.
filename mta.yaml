@@ -6,10 +6,10 @@ modules:
     type: nodejs
     path: .
     requires:
-      - name: dest_teched_2018
+      - name: destination
 
 resources:
-  - name: dest_teched_2018
+  - name: destination
     type: org.cloudfoundry.managed-service
     parameters:
       service-plan: lite
